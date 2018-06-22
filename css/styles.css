@@ -1,0 +1,234 @@
+.intro-page{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+text-align: center;
+font-family: 'Eater', cursive;
+font-weight: 600;
+color:#dd2424;
+font-size: 82px;
+margin-top: 25%;
+}
+
+#sign-up {
+  background-color: #dd2424;
+  border-color: #dd2424 ;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-size: 24px;
+  color:#171714;
+  padding: 1.25em;
+  border-radius: 12%;
+  margin-right: 50%;
+  margin-left: 40%;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+
+#sign-up:hover {
+  opacity:1;
+  cursor:crosshair;
+}
+body {
+  background-image: url(../img/sparks.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#create-profile {
+  margin-top: 25%;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  color: #292F36;
+  font-size: 24px;
+  background-color: #FB4D3D;
+  border-color: #FB4D3D;
+}
+
+
+
+#submit-head h2 {
+color: #292F36;
+text-align: center;
+font-size: 52px;
+
+}
+#submit-head{
+  background-color: #FB4D3D;
+  border-bottom: 2px dashed #071013;
+}
+.form-control{
+  background-color: #fff;
+  opacity: 0.7;
+  border: #000;
+}
+
+ #submit-button{
+   background-color: #dd2424;
+   border-color: #dd2424 ;
+   font-family: 'Amatic SC', cursive;
+   font-weight: 600;
+   font-size: 24px;
+   color:#171714;
+   opacity: 0.5;
+ }
+
+ #submit-button:hover{
+   opacity: 1;
+   cursor:crosshair;
+ }
+
+.col-md-4{
+  margin-top:18%;
+
+}
+.panel-danger{
+  color:#FBFBFB;
+  border: #FBFBFB;
+  font-family: 'Abel', sans-serif;
+}
+.panel-danger > .panel-heading{
+  background-color: rgba(60,60,60,0.7);
+  border-bottom: 1px solid transparent;
+}
+.profile-name{
+  font-family: 'Marck Script', cursive;
+  color: #FF3C38;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+strong {
+  font-size:16px;
+}
+
+.inline-button{
+  background-color: #dd2424;
+  border-color: #dd2424;
+  font-weight: 600;
+  color:#171714;
+  opacity: 0.5;
+}
+
+.inline-button:hover{
+  background-color: #dd2424;
+  opacity: 1;
+  cursor:crosshair;
+}
+
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 50%;
+  opacity: 1;
+}
+.initial-hidden {
+   display:none;
+}
+.player-message {
+  float: right;
+  clear: left;
+  text-align: left;
+  border: solid #1F94FB;
+  background-color: #1F94FB;
+  border-radius: 10px;
+  color: white;
+  font-size: 11px;
+  padding: 5px;
+  max-width: 75%;
+}
+.player-message-multiple {
+  float: right;
+  clear: right;
+  text-align: left;
+  border: solid #1F94FB;
+  background-color: #1F94FB;
+  border-radius: 10px;
+  color: white;
+  font-size: 11px;
+  padding: 5px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+.person-message {
+  float:left;
+  clear: right;
+  text-align: left;
+  border: solid #E6E5EA;
+  background-color: #E6E5EA;
+  border-radius: 10px;
+  font-size: 11px;
+  color:black;
+  padding: 5px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+.text-window {
+  height: 600px;
+  overflow-y: auto;
+}
+.respond-message {
+  background-color: #E6E5EA;
+}
+.message-box {
+      background-color: white;
+      opacity: .9;
+      z-index: 2;
+      cursor: pointer;
+      border: solid;
+  }
+.resize-input {
+  width: 60%
+}
+
+.messageButton {
+  float: right;
+}
+
+div[class*="newMessage"] {
+  display: none;
+  float: right;
+}
+.profile-h2 {
+  text-align: center;
+  font-size:26px;
+}
+.message-hide5, .message-hide1, .message-hide2, .message-hide3, .message-hide4 {
+  display: none;
+}
+.the-date-button-div1, .the-date-button-div2, .the-date-button-div3, .the-date-button-div4, .the-date-button-div5, .the-date-button-div6, .the-date-button-div7, .the-date-button-div8, .the-date-button-div9, .the-date-button-div10, .the-date-button-div11, .the-date-button-div12, .the-date-button-div13, .the-date-button-div14, .the-date-button-div15 {
+  display:none;
+}
+.sendMsg {
+  text-align: left;
+}
+.inline-button {
+  display: inline;
+}
+.about-box {
+  border:solid transparent;
+  height: 80px;
+}
+
+#date-button {
+  float: right;
+}
+
+#date-div {
+ display:none;
+}
+
+#date-background {
+  background-image: url("../img/date-background.jpg");
+  height: 600px;
+  background-size: cover;
+}
+.choice1:hover, .choice2:hover, .choice3:hover {
+  cursor: crosshair;
+  color: #dd2424;
+}
